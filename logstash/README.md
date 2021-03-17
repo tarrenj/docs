@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm32v5` builds of [the `logstash` official image](https://hub.docker.com/_/logstash) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,8 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`7.11.1`](https://github.com/docker-library/logstash/blob/2b17ad49cce713524f1442b4fe35494d81ae27dc/7/Dockerfile)
--	[`6.8.14`](https://github.com/docker-library/logstash/blob/4a715b5d08700e32cd60b7b38d09eaa46bdf8587/6/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `arm32v5` ARCHITECTURE
+
+[![arm32v5/logstash build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/logstash.svg?label=arm32v5/logstash%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/logstash/)
 
 # Quick reference (cont.)
 
